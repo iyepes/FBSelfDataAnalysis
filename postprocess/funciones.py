@@ -866,3 +866,224 @@ def emoticons_replace(post):
     post = post.replace('\u00f0\u009f\u0095\u00a7', ' ')
     return post
 
+def emoticons_sentiment(post):
+    if post != post.replace('\u00f0\u009f\u0091\u008e', ' '):
+        return "-1"
+    elif post != post.replace('\u00f0\u009f\u0091\u00b9', ' '):
+        return "-1"
+    elif post != post.replace('\u00f0\u009f\u0091\u00ba', ' '):
+        return "-1"
+    elif post != post.replace('\u00f0\u009f\u0091\u00bf', ' '):
+        return "-1"
+    elif post != post.replace('\u00f0\u009f\u0092\u0094', ' '):
+        return "-1"
+    elif post != post.replace('\u00f0\u009f\u0092\u00a2', ' '):
+        return "-1"
+    elif post != post.replace('\u00f0\u009f\u0092\u00a3', ' '):
+        return "-1"
+    elif post != post.replace('\u00f0\u009f\u0092\u00a5', ' '):
+        return "-1"
+    elif post != post.replace('\u00f0\u009f\u0092\u00a9', ' '):
+        return "-1"
+    elif post != post.replace('\u00f0\u009f\u0098\u0090', ' '):
+        return "-1"
+    elif post != post.replace('\u00f0\u009f\u0098\u0091', ' '):
+        return "-1"
+    elif post != post.replace('\u00f0\u009f\u0098\u0092', ' '):
+        return "-1"
+    elif post != post.replace('\u00f0\u009f\u0098\u0093', ' '):
+        return "-1"
+    elif post != post.replace('\u00f0\u009f\u0098\u0094', ' '):
+        return "-1"
+    elif post != post.replace('\u00f0\u009f\u0098\u0095', ' '):
+        return "-1"
+    elif post != post.replace('\u00f0\u009f\u0098\u0096', ' '):
+        return "-1"
+    elif post != post.replace('\u00f0\u009f\u0098\u009e', ' '):
+        return "-1"
+    elif post != post.replace('\u00f0\u009f\u0098\u009f', ' '):
+        return "-1"
+    elif post != post.replace('\u00f0\u009f\u0098\u00a0', ' '):
+        return "-1"
+    elif post != post.replace('\u00f0\u009f\u0098\u00a1', ' '):
+        return "-1"
+    elif post != post.replace('\u00f0\u009f\u0098\u00a2', ' '):
+        return "-1"
+    elif post != post.replace('\u00f0\u009f\u0098\u00a3', ' '):
+        return "-1"
+    elif post != post.replace('\u00f0\u009f\u0098\u00a4', ' '):
+        return "-1"
+    elif post != post.replace('\u00f0\u009f\u0098\u00a5', ' '):
+        return "-1"
+    elif post != post.replace('\u00f0\u009f\u0098\u00a6', ' '):
+        return "-1"
+    elif post != post.replace('\u00f0\u009f\u0098\u00a7', ' '):
+        return "-1"
+    elif post != post.replace('\u00f0\u009f\u0098\u00a8', ' '):
+        return "-1"
+    elif post != post.replace('\u00f0\u009f\u0098\u00a9', ' '):
+        return "-1"
+    elif post != post.replace('\u00f0\u009f\u0098\u00aa', ' '):
+        return "-1"
+    elif post != post.replace('\u00f0\u009f\u0098\u00ab', ' '):
+        return "-1"
+    elif post != post.replace('\u00f0\u009f\u0098\u00ac', ' '):
+        return "-1"
+    elif post != post.replace('\u00f0\u009f\u0098\u00ad', ' '):
+        return "-1"
+    elif post != post.replace('\u00f0\u009f\u0098\u00ae', ' '):
+        return "-1"
+    elif post != post.replace('\u00f0\u009f\u0098\u00af', ' '):
+        return "-1"
+    elif post != post.replace('\u00f0\u009f\u0098\u00b0', ' '):
+        return "-1"
+    elif post != post.replace('\u00f0\u009f\u0098\u00b1', ' '):
+        return "-1"
+    elif post != post.replace('\u00f0\u009f\u0098\u00b2', ' '):
+        return "-1"
+    elif post != post.replace('\u00f0\u009f\u0098\u00b3', ' '):
+        return "-1"
+    elif post != post.replace('\u00f0\u009f\u0098\u00b5', ' '):
+        return "-1"
+    elif post != post.replace('\u00f0\u009f\u0098\u00b6', ' '):
+        return "-1"
+    elif post != post.replace('\u00f0\u009f\u0098\u00b7', ' '):
+        return "-1"
+    elif post != post.replace('\u00f0\u009f\u0098\u00bc', ' '):
+        return "-1"
+    elif post != post.replace('\u00f0\u009f\u0098\u00be', ' '):
+        return "-1"
+    elif post != post.replace('\u00f0\u009f\u0098\u00bf', ' '):
+        return "-1"
+    elif post != post.replace('\u00f0\u009f\u0099\u0080', ' '):
+        return "-1"
+    elif post != post.replace('\u00f0\u009f\u0099\u0088', ' '):
+        return "-1"
+    elif post != post.replace('\u00f0\u009f\u0099\u0089', ' '):
+        return "-1"
+    elif post != post.replace('\u00f0\u009f\u0099\u008a', ' '):
+        return "-1"
+    elif post != post.replace('\u00e2\u0098\u0094', ' '):
+        return "-1"
+    elif post != post.replace('\u00f0\u009f\u008d\u0083', ' '):
+        return "0"
+    elif post != post.replace('\u00f0\u009f\u0098\u0088', ' '):
+        return "0"
+    elif post != post.replace('\u00f0\u009f\u0098\u008f', ' '):
+        return "0"
+    elif post != post.replace('\u00f0\u009f\u0098\u009b', ' '):
+        return "0"
+    elif post != post.replace('\u00f0\u009f\u0098\u009c', ' '):
+        return "0"
+    elif post != post.replace('\u00f0\u009f\u0098\u009d', ' '):
+        return "0"
+    elif post != post.replace('\u00f0\u009f\u0098\u00b4', ' '):
+        return "0"
+    elif post != post.replace('\u00f0\u009f\u008e\u0081', ' '):
+        return "1"
+    elif post != post.replace('\u00f0\u009f\u008e\u0086', ' '):
+        return "1"
+    elif post != post.replace('\u00f0\u009f\u008e\u0087', ' '):
+        return "1"
+    elif post != post.replace('\u00f0\u009f\u008e\u0089', ' '):
+        return "1"
+    elif post != post.replace('\u00f0\u009f\u008e\u008a', ' '):
+        return "1"
+    elif post != post.replace('\u00f0\u009f\u0091\u008b', ' '):
+        return "1"
+    elif post != post.replace('\u00f0\u009f\u0091\u008c', ' '):
+        return "1"
+    elif post != post.replace('\u00f0\u009f\u0091\u008d', ' '):
+        return "1"
+    elif post != post.replace('\u00f0\u009f\u0091\u008f', ' '):
+        return "1"
+    elif post != post.replace('\u00f0\u009f\u0092\u0085', ' '):
+        return "1"
+    elif post != post.replace('\u00f0\u009f\u0092\u008b', ' '):
+        return "1"
+    elif post != post.replace('\u00f0\u009f\u0092\u0093', ' '):
+        return "1"
+    elif post != post.replace('\u00f0\u009f\u0092\u0095', ' '):
+        return "1"
+    elif post != post.replace('\u00f0\u009f\u0092\u0096', ' '):
+        return "1"
+    elif post != post.replace('\u00f0\u009f\u0092\u0097', ' '):
+        return "1"
+    elif post != post.replace('\u00f0\u009f\u0092\u0098', ' '):
+        return "1"
+    elif post != post.replace('\u00f0\u009f\u0092\u0099', ' '):
+        return "1"
+    elif post != post.replace('\u00f0\u009f\u0092\u009a', ' '):
+        return "1"
+    elif post != post.replace('\u00f0\u009f\u0092\u009b', ' '):
+        return "1"
+    elif post != post.replace('\u00f0\u009f\u0092\u009c', ' '):
+        return "1"
+    elif post != post.replace('\u00f0\u009f\u0092\u009d', ' '):
+        return "1"
+    elif post != post.replace('\u00f0\u009f\u0092\u009e', ' '):
+        return "1"
+    elif post != post.replace('\u00f0\u009f\u0092\u009f', ' '):
+        return "1"
+    elif post != post.replace('\u00f0\u009f\u0092\u00aa', ' '):
+        return "1"
+    elif post != post.replace('\u00f0\u009f\u0098\u0080', ' '):
+        return "1"
+    elif post != post.replace('\u00f0\u009f\u0098\u0081', ' '):
+        return "1"
+    elif post != post.replace('\u00f0\u009f\u0098\u0082', ' '):
+        return "1"
+    elif post != post.replace('\u00f0\u009f\u0098\u0083', ' '):
+        return "1"
+    elif post != post.replace('\u00f0\u009f\u0098\u0084', ' '):
+        return "1"
+    elif post != post.replace('\u00f0\u009f\u0098\u0085', ' '):
+        return "1"
+    elif post != post.replace('\u00f0\u009f\u0098\u0086', ' '):
+        return "1"
+    elif post != post.replace('\u00f0\u009f\u0098\u0087', ' '):
+        return "1"
+    elif post != post.replace('\u00f0\u009f\u0098\u0089', ' '):
+        return "1"
+    elif post != post.replace('\u00f0\u009f\u0098\u008a', ' '):
+        return "1"
+    elif post != post.replace('\u00f0\u009f\u0098\u008b', ' '):
+        return "1"
+    elif post != post.replace('\u00f0\u009f\u0098\u008c', ' '):
+        return "1"
+    elif post != post.replace('\u00f0\u009f\u0098\u008d', ' '):
+        return "1"
+    elif post != post.replace('\u00f0\u009f\u0098\u008e', ' '):
+        return "1"
+    elif post != post.replace('\u00f0\u009f\u0098\u0097', ' '):
+        return "1"
+    elif post != post.replace('\u00f0\u009f\u0098\u0098', ' '):
+        return "1"
+    elif post != post.replace('\u00f0\u009f\u0098\u0099', ' '):
+        return "1"
+    elif post != post.replace('\u00f0\u009f\u0098\u009a', ' '):
+        return "1"
+    elif post != post.replace('\u00f0\u009f\u0098\u00b8', ' '):
+        return "1"
+    elif post != post.replace('\u00f0\u009f\u0098\u00b9', ' '):
+        return "1"
+    elif post != post.replace('\u00f0\u009f\u0098\u00ba', ' '):
+        return "1"
+    elif post != post.replace('\u00f0\u009f\u0098\u00bb', ' '):
+        return "1"
+    elif post != post.replace('\u00f0\u009f\u0098\u00bd', ' '):
+        return "1"
+    elif post != post.replace('\u00e2\u0098\u00ba', ' '):
+        return "1"
+    elif post != post.replace('\u00e2\u0099\u00a5', ' '):
+        return "1"
+    elif post != post.replace('\u00e2\u009c\u008c', ' '):
+        return "1"
+    else:
+        return "none"
+
+
+
+
+
+

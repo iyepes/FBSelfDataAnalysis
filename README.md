@@ -14,12 +14,11 @@ People with basic knowledge in Python programming and community enthusiasts that
 
 ## Agenda:
 
-1. Organization of your own downloaded Facebook data - 10 minutes
-2. Preparation of pre-requirements (Hands on) -10 minutes
-3. Basic cleaning of your data (Hands on) - 20 minutes
-3. Coding the analysis (Hands on) -30 minutes
-4. Visualizing results (Hands on) - 10 minutes
-5. Conclusions - 10 minutes
+1. Introduction - 1 minute
+2. How to get your own Facebook Data - 10 minutes
+3. Put your location info in a map - (Hands on) - 13 minutes
+3. Process your posts to create a word cloud - (Hands on) - 29 minutes
+4. Analyze your posts sentiment (Hands on) - 29 minutes
 
 ## Pre-requisites:
 
